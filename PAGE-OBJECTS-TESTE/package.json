@@ -1,0 +1,15 @@
+{
+  "name": "cy-pageobjects",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Gabriel Urquiza",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "dependencies": {
+    "cypress": "^14.5.3"
+  }
+}
