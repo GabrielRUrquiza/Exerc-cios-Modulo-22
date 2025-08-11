@@ -10,7 +10,7 @@ describe('List Products', () => {
         cy.login(email, senha)
     })
 
-    it(`deve pesquisasr os produtos e ter um valor listado`, () => {
+    it(`deve pesquisasr os produtos e adicionar no carrinho e remover`, () => {
         homePage.openSearchProduct()
         homePage.searchProduct('Tênis')
         homePage.products().should('have.length.greaterThan', 0)
